@@ -6,15 +6,6 @@ using UnityEditor.Animations;
 using VRC.SDK3.Avatars.Components;
 using System.Linq;
 
-//This work is licensed under the Creative Commons Attribution-NonCommercial 2.0 License.
-//To view a copy of the license, visit https://creativecommons.org/licenses/by-nc/2.0/legalcode
-
-//Made by Dreadrith#3238
-//Discord: https://discord.gg/ZsPfrGn
-//Github: https://github.com/Dreadrith/DreadScripts
-//Gumroad: https://gumroad.com/dreadrith
-//Ko-fi: https://ko-fi.com/dreadrith
-
 namespace DreadScripts.ReplaceMotion
 {
     public class ReplaceMotion : EditorWindow
@@ -32,7 +23,7 @@ namespace DreadScripts.ReplaceMotion
 
         private static Vector2 scroll;
 
-        [MenuItem("DreadTools/Utilities/Replace Motion")]
+        [MenuItem("DreadTools/Utility/Replace Motion")]
         private static void showWindow()
         {
             GetWindow<ReplaceMotion>(false, "Replace Motion", true);
