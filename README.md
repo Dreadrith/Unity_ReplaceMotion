@@ -10,10 +10,11 @@ Window
 -------
 After specifying a target avatar or controller, the window will show you all the motions used. You can replace all instances of a motion with another motion of your choice.
 
-Target:	- The Avatar or Animator Controller to replace motions in.
+Target:The Avatar or Animator Controller to replace motions in.
 
-Motion List:	~ Left Field: The original motion that's used in the target
-				~ Right Field: the new motion that the original motion should be replaced with
+Motion List:
+- Left Field: The original motion that's used in the target
+- Right Field: the new motion that the original motion should be replaced with
 
 ### Thank you
 If you enjoy Replace Motion, please consider [supporting me ♡](https://ko-fi.com/Dreadrith)!
